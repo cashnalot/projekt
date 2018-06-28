@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style-position: inside;	
+	}
+body{
+
+	background-image: url('../img/btcBackground.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.marginTop{
+	margin-top: 30px;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/crypto.png);
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	// margin-left: 100px;
+
+	
+}
+			
+.mainBackground {
+	background-color: rgba($color: #ffffff, $alpha: 0.5);
+	margin-top: 20px;
+	min-height: 100vh;
+	
+	
+}
+#lab_social_icon_footer {
+	padding: 40px 0;
+	background-color: rgba($color: #ffffff, $alpha: 0.5);
+	a {
+		color: #333;
+	}
+}
+
+
+
+
+#lab_social_icon_footer .social {
+	-webkit-transform: scale(0.8);
+	
+	
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	&:hover{
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+	}
+}
+
+
+#lab_social_icon_footer{
+	#social-fb:hover {
+		color: #3B5998;
+	}
+	
+	#social-tw:hover {
+		color: #4099FF;
+	}
+	
+	#social-gp:hover {
+		color: #d34836;
+	}
+	
+	#social-em:hover {
+		color: #f39c12;
+	}
+}
+
+.container {
+	.text-left{
+		float: left;
+	}
+	.gototop{
+		float: right;
+		
+	}
+}
+
+footer{
+	.footerMargin{
+		margin: 10px;
+	}
+	.btn{
+		
+		background-color: #716734;
+		border: 0;
+		
+	}
+	.btn:focus{
+		box-shadow: 0;
+		
+	}
+			.btn:hover, .btn:focus, .open > .dropdown-toggle.btn {
+				background: #835c30;
+				
+			}
+			.btn-primary.focus, .btn-primary:focus{
+				box-shadow: 0;
+			}
+			
+			.btn-primary:not(:disabled):not(.disabled):active{
+				background-color: gold;
+			}
+			
+		}
