@@ -6,7 +6,7 @@
         <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col- mainBackground">
             <?php
                 $query = new WP_Query(array(
-                'category_name'=> 'analizy',
+                'category_name'=> 'blockchain',
                 
                 ));
 
@@ -20,7 +20,7 @@
                     <?php endwhile ?>
                     <?php wp_reset_postdata(); ?>
                     <?php else: ?>
-                <?php echo "brak analiz"; ?>
+                <?php echo "brak blockchain"; ?>
                 
                 <?php endif ?>
         </div>
