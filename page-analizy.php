@@ -16,8 +16,10 @@
                         $query->the_post();
             ?>
                         <?php the_title('<h1>','</h1>') ?>
-                        <?php the_content('<p>','</p>') ?>
-                    
+                        <?php the_excerpt(); ?>
+                        <div class="link">
+                            <a href="<?php the_permalink(); ?>">Więcej...</a>
+                        </div>
                     <?php endwhile ?>
                     <?php wp_reset_postdata(); ?>
                     <?php else: ?>
