@@ -31,7 +31,7 @@
                                     <a class="nav-link" href="<?php the_permalink(39);?>">O nas</a> 
                                 </li>
                                 <li class="nav-item"> 
-                                    <a class="nav-link" href="<?php the_permalink( 35 );?>">Blockchain</a> 
+                                    <a class="nav-link" href="<?php the_permalink(35);?>">Blockchain</a> 
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog"
@@ -39,10 +39,20 @@
                                     Aktualności
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog"> 
-                                        <a class="dropdown-item" href="<?php the_permalink( 35 );?>">Blockchain</a> 
-                                        <a class="dropdown-item" href="blog-home-2.html">Podstrona 2</a> 
-                                        <a class="dropdown-item" href="blog-post.html">Podstrona 3</a> 
+                                        <a class="dropdown-item" href="<?php the_permalink(80);?>">Scam</a> 
+                                        <a class="dropdown-item" href="<?php the_permalink(82);?>">Konferencje</a> 
+                                        <a class="dropdown-item" href="<?php the_permalink(84);?>">Mining</a> 
+                                        <a class="dropdown-item" href="<?php the_permalink(87);?>">ICO</a> 
                                     </div>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="<?php the_permalink(69);?>">Technologia</a> 
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="<?php the_permalink(65);?>">Analizy</a> 
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="<?php the_permalink(78);?>">Giełdy</a> 
                                 </li>
                             </ul>
                         </div>
