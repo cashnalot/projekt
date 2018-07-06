@@ -24,14 +24,13 @@ body{
 	background-position: left;
 	background-size: contain;
 	background-repeat: no-repeat;
-	// margin-left: 100px;
 
 	
 }
 			
 .mainBackground {
 	background-color: rgba($color: #ffffff, $alpha: 0.5);
-	margin-top: 20px;
+	margin-top: 30px;
 	min-height: 100vh;
 	
 	
@@ -49,8 +48,6 @@ body{
 
 #lab_social_icon_footer .social {
 	-webkit-transform: scale(0.8);
-	
-	
 	-moz-transform: scale(0.8);
 	-o-transform: scale(0.8);
 	-webkit-transition-duration: 0.5s;
@@ -62,7 +59,6 @@ body{
 		-o-transform: scale(1.1);
 	}
 }
-
 
 #lab_social_icon_footer{
 	#social-fb:hover {
